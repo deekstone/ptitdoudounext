@@ -1,0 +1,38 @@
+{
+    "name": "ptitdoudounext",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "DISABLE_ESLINT_PLUGIN=true next build",
+        "start": "DISABLE_ESLINT_PLUGIN=true next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@material-tailwind/react": "2.0.6",
+        "@reduxjs/toolkit": "1.9.5",
+        "@tanstack/react-query": "4.15.0",
+        "@types/node": "20.4.2",
+        "@types/react": "18.2.15",
+        "@types/react-dom": "18.2.7",
+        "autoprefixer": "10.4.14",
+        "axios": "1.4.0",
+        "eslint": "8.45.0",
+        "eslint-config-next": "13.4.10",
+        "lodash": "4.17.21",
+        "next": "13.4.10",
+        "next-redux-wrapper": "^8.1.0",
+        "postcss": "8.4.26",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-indiana-drag-scroll": "2.2.0",
+        "react-loader-spinner": "5.3.4",
+        "react-redux": "8.1.1",
+        "react-responsive": "9.0.2",
+        "react-search-autocomplete": "^8.5.2",
+        "redux-persist": "6.0.0",
+        "sharp": "^0.32.6",
+        "tailwindcss": "3.3.2",
+        "typescript": "5.1.6"
+    }
+}

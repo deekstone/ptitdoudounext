@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: LobsterRegular;
+    src: url("../public/fonts/Lobster-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: MontserratBold;
+    src: url("../public/fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: MontserratLight;
+    src: url("../public/fonts/Montserrat-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: MontserratMedium;
+    src: url("../public/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: MontserratThin;
+    src: url("../public/fonts/Montserrat-Thin.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: RobotoBlack;
+    src: url("../public/fonts/Roboto-Black.ttf") format("truetype");
+}
+@font-face {
+    font-family: RobotoBold;
+    src: url("../public/fonts/Roboto-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: RobotoLight;
+    src: url("../public/fonts/Roboto-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: RobotoMedium;
+    src: url("../public/fonts/Roboto-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: RobotoRegular;
+    src: url("../public/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .no-scrollbar {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+    }
+}
+
+.title-style {
+    @apply text-primary;
+}
+
+.max-website-width {
+    @apply max-w-[1140px];
+}
+
+.button-style {
+    @apply bg-primary p-2 justify-end font-MontserratLight text-xl text-white mt-5 w-full;
+}
+
+.button-border-style {
+    @apply border border-primary  p-2 justify-end font-MontserratLight text-xl text-primary mt-5 w-full;
+}
